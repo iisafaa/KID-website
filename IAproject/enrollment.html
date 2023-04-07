@@ -1,0 +1,185 @@
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+       <link rel="stylesheet" href="CssStyleFile\enroll.css"> 
+       <link rel="stylesheet" href="CssStyleFile\StyleHomePage.css">
+       <script src="https://kit.fontawesome.com/25c00f3343.js" crossorigin="anonymous"></script>
+       <title>Enrollment page</title>
+</head>
+<body >
+
+  
+ <!------------logo------------------->
+<div style="background-color: #F1F9FB">
+<a href="HomeKidPage.html"><img class="img1" src="imge\KID (3).png" width="80" height="80"  /></a></div>
+
+
+<!--tool bar1-->
+<div class="navbar" style="background-color:  #8B94F9  ;">
+  <div class="dropdown" style="color:#F1F9FB">
+    <button class="dropbtn" style="color:#8B94F9">@
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+    </div>
+  </div>
+  
+</div>
+
+
+
+<!--tool bar2-->
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">Levels
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+                    <a href="KG1.html">KG1</a>
+                    <a href="KG2.html">KG2</a>
+                    <a href="KG3.html">KG3</a>
+                </div>
+            </div>
+            <a href="summerCourses.html">Summer Courses</a>
+           <a href="Annoucements_page.html">Announcement</a>
+          <a href="FAQpage.html">Common Questions</a>
+          <a href="EducationalVideos.html">Educational Videos</a></div>
+
+<!--/////////////////////////////////////////////// --->
+
+
+
+
+<div class="hedImg"></div><!-------------for img head-------------->
+<!--<img src="imge\back.png" width="100%" height="100%"/>-->
+
+    <!--<h1>Job Application</h1>-->
+    <form method="post" enctype="multipart/form-data" action="welcome.html">
+
+      <h1>Please enter your informatiom</h1>
+
+      <fieldset>
+        <legend> — personal information —</legend>
+
+      <label for="firstName"> First Name:</label>
+      <input type="text" id="firstName" name="firstName" required autocomplete="off" />
+
+      <label for="lastName"> Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required autocomplete="off" />
+
+      <label for="email">Email:</label>
+      <input type="email" placeholder="example@gmail.com" id="email" name="email" required autocomplete="off" />
+
+      
+
+      <label for="phone"> Phone number:</label>
+      <input type="tel"  id="phone" name="phone" required autocomplete="off" onblur="validnum()" />
+
+      <label for="address"> Address:</label>
+      <input type="text"  id="address" name="address" required autocomplete="off" />
+
+      <label for="gender"> Gender:</label>
+      <br><br><br>
+      <input type="radio" id="male" name="gender" value="Male" >
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="Female">
+      <label for="female">Female</label>
+
+      <label for="birthday"> Birthday:</label>
+      <input type="date"  id="birthday" name="birthday" required autocomplete="off" min="2017-01-01" max="2019-12-31" />
+
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+      <legend> — gurdian's contact information —</legend>
+      <label for="gFirstName"> First Name:</label>
+      <input type="text" id="gFirstName" name="gFirstName" autocomplete="off" />
+
+      <label for="gLastName"> Last Name:</label>
+      <input type="text" id="gLastName" name="gLastName" autocomplete="off" />
+
+      <label for="gEmail">Email:</label>
+      <input type="email" placeholder="example@gmail.com" id="gEmail" name="gEmail" autocomplete="off" />
+
+      <label for="gPhone"> Phone number:</label>
+      <input type="tel"  id="gPhone" name="gPhone" autocomplete="off"/>
+
+      <label for="gAdress"> Address:</label>
+      <input type="text"  id="gAdress" name="gAdress" autocomplete="off"/>
+
+    </fieldset>
+<br>
+    <fieldset>
+      <legend> — enrollment deatails —</legend>
+
+      <label for="grade">Enroll in grade:</label>
+      <br><br>
+        <select name="grade" id="grade">
+          <option value="kg1"> KG 1   (age: 3 years)</option>
+          <option value="kg2"> KG 2   (age: 4 years)</option>
+          <option value="kg3"> KG 3   (age: 5 years)</option>
+        </select>
+
+        <label for="documents"> Upload your picture</label>
+        <input type="file" id="documents" name="documents">
+
+        <label for="medical"> Medical Problems/ Allergies: </label>
+        <br>
+        <textarea id="medical" name="medical" cols="51" rows="6" class="field-large"></textarea>
+      </fieldset>
+
+      <button class="bot" onclick="return registration()"> Submit</button>
+
+     <!-- <a href="login.html"> هل لديك حساب ؟ </a> -->
+
+   
+    
+    <script type="text/javascript">
+      function validnum() {
+        var num = document.getElementById("phone").value;
+        if(num.length<10){
+          alert("phone number must include at least 10 numbers");
+        return false;}
+      }
+
+      function validaddress(){
+        var ad = document.getElementById("address").value;
+        if(ad.length<3){
+          alert("this isnt a valid address");
+        return false;}
+      }
+
+      function registration(){
+        var name = document.getElementById("firstName").value;
+        var grade=document.getElementById("grade").value;
+        if(!confirm("Hello "+name+" you want to enroll in grade "+grade + " right?")){
+        return false}
+        else{
+          location.replace("welcom.html")
+          return true;
+
+        }
+      }
+    </script>
+
+
+
+<!------footer start--------->
+  <div class="footer">
+<img src="imge/footer.png" height="80px" width="1519px" style="position: absolute; top: 2000px; margin-left: 25px ; " >
+<p style="position: absolute; top:2020px; color: #c7d7f3;">kidKindergarten@gmail.com</p></div>
+</form>
+
+
+
+
+
+
+
+
+</body>
+</html>

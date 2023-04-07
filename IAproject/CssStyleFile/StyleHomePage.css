@@ -1,0 +1,288 @@
+body {
+  margin: 0;
+  font-family: serif;
+  box-sizing: border-box;
+ /* background-image: url(background.png);
+  background-size: cover;
+  background-position: center; */
+}
+
+/*logo*/
+.img1{
+  position: absolute;
+  right: 1%;
+  bottom:648px ;
+}
+
+.img1:hover{transform: scale(1.1,1.1);}
+
+/*head img*/
+.hedImage{
+  height: 70vh;
+  width: 100%;
+  background-image: url(s.jpg);
+  background-size: cover;
+  background-position: center; 
+  
+  }
+
+  .content{
+  position: absolute;
+  top: 50%;
+  left:8%;
+  transform: translateY(-50%);
+}
+
+/***************************************************Start tool bar********************************************/
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: white ;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 90px;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  border-radius: 90px;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:#c7d7f3;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a purbule background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #c7d7f3 ;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/**************************************End tool bar********************************************/
+
+.title{
+ line-height: 40px;
+ margin-top: -50px;
+ text-align: center;
+ overflow: hidden;
+ margin-left: 300px;
+ align-items: center;
+ display: inline;
+}
+
+.title img{
+  margin-top: 120px; 
+  margin-left: 190px;
+  float: left;
+}
+
+
+.title h2{
+  padding-top: 40px ;
+  color: #987EFD ;
+  font-size: 80px;
+  width: 1130px;
+  margin-top: 175px ;
+  text-align: left;
+  
+}
+
+.title p{
+  color:#2596be ;
+  font-size: 21px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: left;
+  line-height: 25px;
+  margin-top: -35px;
+}
+
+
+
+
+
+.box {
+  height: 350px;
+  width: 400px;
+  /*background-color: rgba(255, 255, 255, 0.199);*/
+  background-image: url(boxImage.jpg);
+  position: absolute;
+  /*transform: translate(-50%, -50%);*/
+  top: 1450px;
+  left: 130px;
+  transition: 0.7s ease;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+ /* border: 2px solid rgba(255, 255, 255, 0.1);*/
+  box-shadow: 0 10px 6px -6px #777;
+  padding: 50px 55px;
+  float: left;
+
+  
+}
+
+.box:hover {transform: scale(1.1,1.1);}
+
+.about{
+  width: 100%;
+  padding: 100px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px
+  /*background-color: #191919;*/
+
+}
+
+.about-text{
+  width: 550px;
+  position: absolute;
+  /*transform: translate(-50%, -50%);*/
+  top: 1400px;
+  left: 690px;
+}
+
+.about-text ul{
+  color: #2596be;
+  font-size: 20px;
+  line-height: 30px;
+  position: absolute;
+  top: 80%;
+  
+}
+
+.main{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.about-text h2{
+  color: #987EFD  ;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+
+}
+
+.about-text p{
+  color: #2596be;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+
+/********************************************************footer******************************************************/
+.footer{
+  padding: 60px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*************************************************************End Home Page*******************************************************************/
+
+
+
+/***************************************************common quistion page********************************************/
+.imgHead{ padding: 100px; }
+
+.title1 h2 {
+  font-size:100px;
+  color: #8B94F9 ;
+  line-height:115px; 
+  text-align: center; 
+ font-weight:800 ; 
+  position: absolute; 
+  top: 33%; 
+  left:54%; 
+}
+
+.Q{
+  height: 0px;
+  width: 800px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #8B94F9 ;
+  border-radius: 10px;
+  box-shadow: 0 8px 6px -6px #777;
+  margin: 15px auto;
+  padding: 25px 80px;
+
+}
+
+.Q:hover{
+  
+  transform: scale(1.1,1.1);
+}
+
+
+.Q p{
+color: #8B008B;
+font-size: 30px;
+text-align: justify-all;
+line-height: 40px;
+font-family: serif;
+}
+
+
+
+
+

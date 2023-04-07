@@ -1,0 +1,183 @@
+
+body{ background-image: url(b.png); }
+
+.teach_TB{
+            max-width: 1200px;
+            border: 1px solid #8B94F9;
+            background-color: #F1F9FB;
+            padding: 15px;
+            overflow: auto;
+            margin: auto;
+            border-radius: 4px;
+        }
+        .teach_TB table{
+            width: 1200px;
+            font-size: 13px;
+            color: #8B94F9;
+            white-space: nowrap;
+            border-collapse: collapse;
+        }
+        .teach_TB table>thead{
+            background-color: #8B94F9;
+            color: #fff;
+        }
+        .teach_TB table>thead th{
+            padding: 15px;
+        }
+        .teach_TB table th, table td{
+            border: 1px solid #00000017;
+            padding: 20px 15px;
+        }
+        .teach_TB table>tbody>tr>td>img{
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            object-fit: 50px;
+            border: 4px solid #fff;
+            box-shadow: 0 2px 6px #0003;
+        }
+        .requir{
+            height: 0px;
+            width: 1200px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            background-color: #8B94F9 ;
+            border-radius: 10px;
+            box-shadow: 0 10px 6px -6px #777;
+            margin: 15px auto;
+            padding: 25px 80px;
+            
+
+           
+        }
+        .requir p{
+            color: #8B008B;
+            font-size: 30px;
+            text-align: left;
+            line-height: 40px;
+            font-family: serif;
+        }
+        .servicess{
+            background-color: #F1F9FB;
+        }
+        .s-heading{
+            text-align:center;
+        }
+
+        .s-heading h1{
+            color:#8B94F9;
+            font-size: 4em;
+            font-weight: 800;
+            margin-top:80px;
+            position: absolute; 
+            font-family: Arial;
+            top: 30%; 
+            left:44%;
+            line-height:115px;
+        }     
+        .s-heading h2{
+          line-height:115px;
+            color:#EA77AD;
+            font-size: 2.5rem;
+            margin-bottom:100px;
+            letter-spacing: 1px;
+            text-align:center;
+            position: absolute; 
+            top: 50%; 
+            left:32%;
+        }
+        .s-headings h2{
+          line-height:115px;
+            color:#EA77AD;
+            font-size: 2.5rem;
+            margin-bottom:100px;
+            letter-spacing: 1px;
+            text-align:center;
+            position: absolute; 
+            top: 32%; 
+            left:36%;
+        }
+        .s-box-container{
+            width:100%;
+            display: flex;
+            justify-content:center;
+            align-items:center;
+
+        }
+        .s-box img{
+            height:80px;
+        }   
+        .s-box {
+            display: flex;
+            flex-direction:column;
+            align-items:center;
+            border-radius: 10px;
+            width:300px;
+            height:500px;
+            padding:20px 25px;
+            box-sizing: border-box;
+            margin:30px;
+            position:relative;
+
+        }   
+        .s-box h1{
+            color:#7A66DC;
+            letter-spacing:1px;
+            font-size:1.5rem;
+            margin-bottom:8px;
+        }   
+        .s-box p{
+            color:black;
+            text-align:center;
+            font-size: 18px;
+            line-height: 20px;
+            font-family: serif;
+        }
+        .s-btn{
+            width:140px;
+            height:40px;
+            border-radius:20px;
+            border: 2px solid #1f1f7a;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            color:black;
+            margin-top: 10px;
+            text-decoration: none;
+            }
+            
+        .s-box:hover{
+            box-shadow:2px 2px 30px -6px #777;
+            transition: all ease 0.3s;
+        }
+        .s-btn :hover{
+            background-color: gray;
+            border:1px solid gray;
+            color:#e91e63;
+            transition: all ease 0.3s;
+        }
+        .bar{
+            width:100px;
+            height:6px;
+            position:absolute;
+            left:50%;
+            top:0px;
+            transform: translatex(-50%);
+            background-color:#e91e63;
+            border-radius: 0px 0px 10px 10px;
+            display:none;
+            animation: bar 0.5s;
+
+        }
+        .s-box :hover .bar{
+            display:#e91e63;
+        }
+
+        .center{
+            color: #ffffff;
+            font-size: 1.5rem;
+            text-indent: 20px;
+        }

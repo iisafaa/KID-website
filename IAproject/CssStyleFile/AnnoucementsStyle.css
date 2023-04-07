@@ -1,0 +1,114 @@
+ 
+/*head img*/
+.hedImg{
+  height: 70vh;
+  width: 100%;
+  background-image: url(im.jpg);
+  background-size: cover;
+  background-position: center; 
+  }
+
+  .titl h2 {
+  font-size:70px;
+  color: #223c6c ;
+  line-height:115px; 
+  text-align: center; 
+ font-weight:800 ; 
+  position: absolute; 
+  top: 55%; 
+  left:32%; 
+}
+
+.pox{
+background-color: #fff;
+width: 960px;
+height: 570px;
+box-shadow: 0 10px 6px -6px #777;
+padding:25px ;
+margin-top: 100px;
+margin-left: 250px;
+text-align: center;
+align-items: center;
+position: absolute;
+z-index: 120;
+}
+
+
+.sumImg{
+   display: inline; 
+}
+
+
+
+.p1{
+  font-family: serif;
+  font-size: 20px;
+  text-align: justify-all;
+  color: #223c6c;
+}
+
+.p1 h2{
+ font-size: 60px;
+ margin-bottom: 10px ;
+}
+
+
+.pox2{
+background-image: url(b.png);
+width: 1519px;
+height: 1970px;
+transition: 0.7s ease;
+text-align: center;
+overflow: hidden;
+align-items: center;
+margin-top: 500px;
+z-index: 10;
+}
+
+
+
+.p2{
+  margin-top: 270px;
+  font-family: serif;
+  font-size: 20px;
+  text-align: center;
+  color: #223c6c;
+}
+
+.p2 h2{ 
+    margin-bottom:0px ; 
+}
+
+
+.artImg{
+margin-left:160px ;
+
+}
+
+
+.wimg{
+   padding: 10px; 
+  margin-top: 10px;
+  cursor:pointer;
+  float:right;
+  position:right;
+  background-color: silver ;
+}
+
+.cimg{
+  padding: 10px; 
+  margin-top: 1.5em;
+  cursor:pointer;
+  float:left;
+  position:right;
+
+}
+
+.rimg{
+  padding: 10px; 
+  margin-top: 10px;
+  cursor:pointer;
+  float:left;
+  position:right;
+  background-color: #8B94F9;
+}

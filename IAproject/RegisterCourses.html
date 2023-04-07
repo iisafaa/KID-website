@@ -1,0 +1,101 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+       <link rel="stylesheet" href="CssStyleFile/RegisterCourse.css"> 
+       <link rel="stylesheet" href="CssStyleFile\StyleHomePage.css">
+       <script src="https://kit.fontawesome.com/25c00f3343.js" crossorigin="anonymous"></script>
+       <title>Register page</title>
+</head>
+<body >
+
+  
+ <!------------logo------------------->
+<div style="background-color: #F1F9FB">
+<a href="HomeKidPage.html"><img class="img1" src="imge\KID (3).png" width="80" height="80"  /></a></div>
+
+
+<!--tool bar1-->
+<div class="navbar" style="background-color:  #8B94F9  ;">
+  <div class="dropdown" style="color:#F1F9FB">
+    <button class="dropbtn" style="color:#8B94F9">@
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+    </div>
+  </div>
+  
+</div>
+
+
+
+<!--tool bar2-->
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">Levels
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+                    <a href="KG1.html">KG1</a>
+                    <a href="KG2.html">KG2</a>
+                    <a href="KG3.html">KG3</a>
+                </div>
+            </div>
+            <a href="summerCourses.html">Summer Courses</a>
+           <a href="Annoucements_page.html">Announcement</a>
+          <a href="FAQpage.html">Common Questions</a>
+          <a href="EducationalVideos.html">Educational Videos</a></div>
+
+<!--/////////////////////////////////////////////// --->
+
+
+
+<div>
+
+<img src="imge\back.png" width="100%" height="100%"/>
+
+  
+       
+        <form>
+      <h3>Please inter your informatiom</h3>
+
+      <label for="firstName"> Name:</label>
+      <input type="text" id="firstName" required autocomplete="off" />
+
+      <label for="username">Age:</label>
+      <input type="text"  id="username" required autocomplete="off" />
+
+      
+
+      <label for="phone"> Phone number:</label>
+      <input type="tel" name="ph" id="phone" required autocomplete="off"/>
+
+      <button class="bot" onclick="registration()"> Submit</button>
+
+     <!-- <a href="login.html"> هل لديك حساب ؟ </a> -->
+
+    <!------footer start--------->
+  <div class="footer">
+<img src="imge/footer.png" height="80px" width="1519px" style="position: absolute; top: 610px; margin-left: 304.5px ; " >
+<p style="position: absolute; top:650px; color: #c7d7f3;">kidKindergarten@gmail.com</p></div>
+</form>
+
+
+<script type="text/javascript">
+  
+function registration() {
+ var ph = document.getElementById("phone").value;
+ var name = document.getElementById("firstName").value;
+
+ if(ph.length<10)
+  alert("!!Welcome "+name+" Your phone number must consist of 10 digits!!");
+  
+else{
+  alert("Hi "+name+" you have sucssesfuly register in this course(:");
+   
+}}
+
+</script>
+
+</body>
+</html>

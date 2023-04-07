@@ -1,0 +1,110 @@
+
+/*
+#basha {
+  float: left;
+  margin: 1em;
+  width: 150px;
+} 
+*/
+form {
+  height: 460px;
+  width: 450px;
+  background-color: white;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 75%;
+  left: 40%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px #8B94F9 solid;
+  box-shadow: 0 0 8px rgba(8, 7, 16, 0.6);
+ padding: 50px 35px;
+}
+
+form * {
+  color: #464646;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+  margin-top: 0.5em;
+}
+
+form h3 {
+  font-size: 26px;
+  font-weight: 550;
+  line-height: 42px;
+  text-align: center;
+  color:#8B94F9 ;
+}
+
+label {
+  display: block;
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  float:left;
+
+}
+input {
+  display: block;
+  height: 35px;
+  width: 100%;
+  background-color: #C3F8FC;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/*
+::placeholder {
+  color: #bbb9b9;
+  float: left;
+  padding-top: 10px;
+}*/
+
+.bot {
+  margin-top: 90px;
+  width: 100%;
+  background-color: #EA77AD;
+  color: #080710;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+/*a {
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
+}
+*/
+
+
+/*@media all and (max-width: 500px){
+
+  header {
+    background-image: url(image1/svg.png);
+    height: 500px;
+  }*/
+
+  /*#basha{
+    float: right;
+    margin-top: 0.5em;
+  }*/
+
+  /*form{
+    height: 400px;
+    width: 250px;
+    top: 50%;
+    left: 50%;
+    padding: 50px 35px;
+  }
+
+  form *{
+    margin-top: 0.5em;
+  }*/

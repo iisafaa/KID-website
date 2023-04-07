@@ -1,0 +1,104 @@
+
+
+
+/*.image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+
+
+}*/
+.topic
+{
+  line-height:90px;
+  text-align: center;
+	color: #8B94F9;
+	font-size: 100px;
+	font-weight:800 ;
+  position: absolute;
+  top: 40%;
+  left:60%;
+}
+
+
+.cont{
+background-image: url(b.png);
+padding: 50px;
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.card{
+background-color: #fff;
+width: 320px;
+height: 470px;
+box-shadow: 0 10px 6px -6px #777;
+border-radius: 20px;
+padding:25px ;
+margin: 30px;
+transition: 0.7s ease;
+text-align: center;
+overflow: hidden;
+border: 2px #8B94F9 solid;
+align-items: center;
+}
+
+.card:hover
+{
+transform: scale(1.1);
+}
+
+.info{
+  line-height: 25px;
+  /*position: relative;
+ bottom: 23px;*/
+}
+
+.info p {
+ text-align: center;
+ color:#8B94F9 ;
+ font-size:27px;
+ font-weight: bold;
+ /*margin-left:20px ;*/
+}
+
+
+.info ul{
+ text-align: left;
+ color: #EA77AD;
+ list-style-type: square;
+}
+
+
+
+.icon{
+  text-align: center;
+}
+
+.date{
+   
+   color: gray;
+   text-align: center;
+}
+
+
+.button{
+background-color: #8B94F9;
+text-decoration: none;
+color: white;
+border: 2px solid transparent;
+font-weight: bold;
+padding: 9px 22px;
+border-radius: 30px;
+transition: .4s;
+
+}
+
+
